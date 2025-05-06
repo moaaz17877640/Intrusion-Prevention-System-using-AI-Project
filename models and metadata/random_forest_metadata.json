@@ -1,0 +1,32 @@
+{
+    "random_forest_model": {
+        "model_file": "random_forest_model.pkl",
+        "scaler_file": "random_forest_scaler.pkl",
+        "accuracy": 0.9991804912622649,
+        "threshold": 0.5,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ],
+        "feature_thresholds": {
+            "flow_rate": 244525.59440049698,
+            "syn_rate": 12.492050616105226,
+            "avg_packet_size": 1826.5656218063652,
+            "syn_ratio": 0.2710027775366438,
+            "ack_ratio": 0.7868293417500415,
+            "psh_ratio": 0.39964142526868285,
+            "urg_ratio": 0.7049877957873264,
+            "entropy": 3624.0293737201737,
+            "flow_duration": 79347678.82099617,
+            "down_up_ratio": 3.869019106804361
+        }
+    }
+}

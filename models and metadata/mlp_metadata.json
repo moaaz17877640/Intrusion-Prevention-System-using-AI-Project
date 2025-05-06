@@ -1,0 +1,19 @@
+{
+    "mlp_model": {
+        "model_file": "mlp_model.pkl",
+        "scaler_file": "mlp_scaler.pkl",
+        "accuracy": 0.9983831314093335,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    }
+}

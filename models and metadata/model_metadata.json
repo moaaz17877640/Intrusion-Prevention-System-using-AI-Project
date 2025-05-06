@@ -1,0 +1,98 @@
+{
+    "Random Forest": {
+        "model_file": "ml_models\\random_forest_model.pkl",
+        "accuracy": 0.9991804912622649,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    },
+    "K-Nearest Neighbors": {
+        "model_file": "ml_models\\k-nearest_neighbors_model.pkl",
+        "accuracy": 0.9988261091054066,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    },
+    "Decision Tree": {
+        "model_file": "ml_models\\decision_tree_model.pkl",
+        "accuracy": 0.999047597953443,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    },
+    "XGBoost": {
+        "model_file": "ml_models\\xgboost_model.pkl",
+        "accuracy": 0.9992469379166758,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    },
+    "AdaBoost": {
+        "model_file": "ml_models\\adaboost_model.pkl",
+        "accuracy": 0.9966555183946488,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    },
+    "Naive Bayes": {
+        "model_file": "ml_models\\naive_bayes_model.pkl",
+        "accuracy": 0.7343684245498239,
+        "feature_order": [
+            "flow_rate",
+            "syn_rate",
+            "avg_packet_size",
+            "syn_ratio",
+            "ack_ratio",
+            "psh_ratio",
+            "urg_ratio",
+            "entropy",
+            "flow_duration",
+            "down_up_ratio"
+        ]
+    }
+}
